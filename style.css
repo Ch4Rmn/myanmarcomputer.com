@@ -29,6 +29,9 @@ body {
   line-height: 1.6em;
   letter-spacing: 0.02em;
   color: var(--light-text-color);
+        overflow-x: hidden !important;
+      width: 100%;
+
 }
 
 h1,
@@ -356,8 +359,19 @@ iconify-icon.navbar-icon {
 /*---- hero section style start ----*/
 section#hero {
   /* background: linear-gradient(76.38deg, #121B52 0%, #5F1C8A 100%); */
-  height: 100vh;
+  /* height: 100vh; */
+  height: 181vh;
+        overflow: hidden;
+
+
 }
+ .offcanvas {
+      max-width: 100% !important;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
 
 .hero-btn-outline-primary {
   color: var(--grey-color);
