@@ -26,6 +26,42 @@
 
   <!-- script ================================================== -->
   <script src="js/modernizr.js"></script>
+
+  <style>
+    .logo-slider {
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        background: #f8f9fa;
+        padding: 20px 0;
+    }
+
+    .logo-slider .logos {
+        display: inline-flex;
+        animation: slide 20s linear infinite;
+    }
+
+    .logo-slider img {
+        height: 60px;
+        margin: 0 40px;
+        /* filter: grayscale(100%); */
+        transition: filter 0.3s;
+    }
+
+    .logo-slider img:hover {
+        filter: grayscale(0%);
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
+    }
+</style>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
@@ -97,7 +133,7 @@
                   </li>
                 </ul>
               </li> -->
-              <li class="nav-item dropdown">
+              <!-- <li class="nav-item dropdown">
                 <a class="nav-link text-uppercase px-4 text-light text-center dropdown-toggle" data-bs-toggle="dropdown"
                   href="#" role="button" aria-expanded="false">Hosting<iconify-icon
                     icon="material-symbols:arrow-drop-down"></iconify-icon></a>
@@ -120,9 +156,12 @@
                       <span class="badge bg-primary">New</span></a></li>
 
                 </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link text-uppercase px-4 text-light" href="price.html">Price </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-uppercase px-4 text-light" href="price">Price </a>
+                <a class="nav-link text-uppercase px-4 text-light" href="aboutus.html">About </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-uppercase px-4 text-light" href="support.html">Support </a>
@@ -239,6 +278,7 @@
       </div>
     </nav>
   </header>
+  
 
   <!-- Hero Section Starts -->
   <section id="hero">
@@ -252,7 +292,7 @@
         <div class=" col-lg-6 col-md-8 col-sm-12 text-center text-lg-start">
         <!-- <div class=" col-lg-6 col-md-8 col-sm-12 text-center text-lg-start"> -->
           <h6>Hosthub Hosting</h6>
-          <h1 class=" text-capitalize text-light my-3">Fast & secure hosting for any websites.</h1>
+          <h1 class=" text-capitalize text-light my-3">Fast & Secure Websites for Your Business.</h1>
           <p class="text-light mb-4">Sed et lorem eget quam eget pulvinar viverra egestas aliquam. Dolor suspendisse
             adipiscing in vel
             sodales luctus arcu. Laculis eget dictum suspendisse urna euismod. Diam volutpat turpis at
@@ -276,11 +316,546 @@
     </div>
   </section>
 <!-- 21.8.2025 -->
+ <div class="container-fluid my-5">
+    <div class="logo-slider">
+        <div class="logos">
+            <img src="images/html5.png" alt="Logo 1">
+            <img src="images/css3.png" alt="Logo 2">
+            <img src="images/JavaScript.png" alt="Logo 3">
+            <img src="images/jquery.jpg" alt="Logo 4">
+            <img src="images/php.png" alt="Logo 5">
+            <!--  -->
+            <img src="images/nodejs.png" alt="Logo 6">
+            <img src="images/bootstrap.png" alt="Logo 7">
+            <img src="images/django.png" alt="Logo 8">
+            <img src="images/fetchapi.png" alt="Logo 9">
+            <img src="images/laravel.png" alt="Logo 10">
+            <img src="images/mongodb.jpg" alt="Logo 11">
+            <img src="images/mysql.png" alt="Logo 12">
+            <img src="images/nginx.png" alt="Logo 13">
+            <img src="images/zoho.png" alt="Logo 14">
+            <img src="images/wordpress.png" alt="Logo 15">
+            <img src="images/woocommerce.png" alt="Logo 16">
+            <img src="images/wix.png" alt="Logo 17">
+            <img src="images/shopify.png" alt="Logo 18">
+            <img src="images/HubSpot.jpg" alt="Logo 19">
+            <img src="images/logo_gs_chart.png" alt="Logo 20">
+            <img src="images/leafletjs.png" alt="Logo 21">
+            <!--  -->
+             <img src="images/html5.png" alt="Logo 1">
+            <img src="images/css3.png" alt="Logo 2">
+            <img src="images/JavaScript.png" alt="Logo 3">
+            <img src="images/jquery.jpg" alt="Logo 4">
+            <img src="images/php.png" alt="Logo 5">
+            <!--  -->
+            <img src="images/nodejs.png" alt="Logo 6">
+            <img src="images/bootstrap.png" alt="Logo 7">
+            <img src="images/django.png" alt="Logo 8">
+            <img src="images/fetchapi.png" alt="Logo 9">
+            <img src="images/laravel.png" alt="Logo 10">
+            <img src="images/mongodb.jpg" alt="Logo 11">
+            <img src="images/mysql.png" alt="Logo 12">
+            <img src="images/nginx.png" alt="Logo 13">
+            <img src="images/zoho.png" alt="Logo 14">
+            <img src="images/wordpress.png" alt="Logo 15">
+            <img src="images/woocommerce.png" alt="Logo 16">
+            <img src="images/wix.png" alt="Logo 17">
+            <img src="images/shopify.png" alt="Logo 18">
+            <img src="images/HubSpot.jpg" alt="Logo 19">
+            <img src="images/logo_gs_chart.png" alt="Logo 20">
+            <img src="images/leafletjs.png" alt="Logo 21">
+        </div>
+    </div>
+</div>
+
+<!--  -->
+<!-- about section starts  -->
+  <section id="about">
+    <div class="hero container my-5">
+      <div class="row  align-items-center g-5 py-5">
+        <div class="  col-10 col-sm-8 col-lg-6">
+          <img src="images/about.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+        </div>
+        <div class=" col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine">
+          <h6>Hosthub web host</h6>
+          <h2 class=" text-capitalize  my-3">Best website service with trusted</h2>
+          <p class="pb-5">Enim vel sed aliquet in eget eros neque nam. Gravida sodales bibendum quam neque lacus
+            ullamcorper
+            est ut. Bibendum neque eget sed sed faucibus egestas duis ullamcorper. Nibh adipiscing sit sagittis nunc
+            aliquet sit. </p>
+
+          <div class="">
+            <button type="button" class="btn btn-outline-primary">Get Started</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+<!-- about2 section starts  -->
+  <section id="about2">
+    <div class="hero container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="  col-10 col-sm-8 col-lg-6">
+          <img src="images/about2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
+        </div>
+        <div class=" col-lg-6" data-aos="fade-up" data-aos-easing="ease-in-sine">
+          <h6>Ready for Host Your Website</h6>
+          <h2 class=" text-capitalize  my-3">24 Hours Montoring</h2>
+          <p class="mb-5">Gravida sodales bibendum quam neque lacus ullamcorper est ut. Bibendum neque eget sed sed
+            faucibus
+            egestas duis enim vel sed aliquet in eget eros neque nam ullamcorper nibh adipiscing sit sagittis nunc
+            aliquet sit. </p>
+
+          <div class="">
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='price.html'">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!--  -->
+  
+  <!--  -->
+  <section id="action">
+    <div class="container my-5 py-5">
+      <div class="text-center py-5 " data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="600">
+        <h6>Free Advice Now</h6>
+        <h1 class=" text-capitalize mb-3">Get a Free Website Consultation Today</h1>
+        <p class="">It is very easy to integrate in your site or apps. </p>
+        <div class="">
+
+
+          <button type="button" class="btn btn-primary">
+            <span class="btnText"><a href="viber://chat?number=09775204020" style="color:white">Get started now</a>
+</span>
+            <span class="btnTwo">
+              <iconify-icon icon="prime:arrow-right" class="btn-arrow"></iconify-icon>
+            </span>
+          </button>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+   <!-- Blog Section Starts -->
+  <section id="blog" style="background-color: white !important;">
+    <div class="container py-5">
+      <h2 class="text-center  my-5">Our Customers Website</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="0">
+          <div class="artical-post">
+            <div class="">
+              <a href="https://yangontransformer.com/" target="_blank" class="blog-img"><img src="images/yangontransformer.png" alt="" class="img-fluid"></a>
+            </div>
+            <div class="p-4">
+              <h3 style="text-transform: lowercase;"><a href="https://yangontransformer.com/" class="blog-link">yangontransformer.com</a></h3>
+          
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="300">
+          <div class="artical-post">
+            <div class="">
+              <a href="https://goldenkayin.com/" target="_blank" class="blog-img"><img src="images/goldenkayin.png" alt="" class="img-fluid"> </a>
+            <div class="p-4">
+              <h3 style="text-transform: lowercase;"><a href="goldenkayin.com/" class="blog-link">goldenkayin.com</a></h3>
+         
+            </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="600">
+          <div class="artical-post">
+            <div class="">
+              
+              <a href="https://winpharmacy.com/" class="blog-img"><img src="images/winpara.png" alt="" class="img-fluid"></a>
+            <div class="p-4">
+              <h3 style="text-transform: lowercase;"><a href="https://winpharmacy.com/" class="blog-link">winpharmacy.com</a></h3>
+         
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="text-center mb-5">
+        <button type="button" class="btn btn-outline-primary">Show More</button>
+      </div>
+
+    </div>
+  </section>
+  <!--  -->
+   <!-- price-plan section starts  -->
+  <section id="price-plan">
+    <div class="container my-5">
+
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2 class="text-capitalize text-center mt-5">Choose your website plan</h2>
+          <p class="text-center">Egestas duis enim vel sed aliquet in eget eros neque nam ullamcorper nibh adipin eget
+            eros neque namiscing sit sagittis nunc aliquet sit. </p>
+        </div>
+      </div>
+
+      <div class="row py-4">
+        <div class="col-12 col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="0">
+          <div class="  pt-5 pb-4 plan-post text-center">
+
+           <h6>Essential</h6>
+
+              <div class="d-flex my-4 justify-content-center">
+                <p class="dollar">mmk</p>
+                <p class="plan-cost">450000&nbsp;</p>
+                <p class="month pt-3">/Year</p>
+              </div>
+
+            <div class="mb-5">
+              <button type="button" class="btn btn-outline-primary">Select</button>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>1 website</p>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>10 GB storage</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free domain</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free SSL</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free email</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Daily Backup</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Unlimited bandwidth</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated resources</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated IP Address</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+          data-aos-delay="300">
+          <div class="  pt-5 pb-4 plan-post text-center">
+
+               <h6>starter</h6>
+
+              <div class="d-flex my-4 justify-content-center">
+                <p class="dollar">mmk</p>
+                <p class="plan-cost">600000&nbsp;</p>
+                <p class="month pt-3">/Year</p>
+              </div>
+
+            <div class="mb-5">
+              <button type="button" class="btn btn-outline-primary">Select</button>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>10 website</p>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>100 GB storage</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free domain</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free SSL</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free email</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Daily Backup</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Unlimited bandwidth</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated resources</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated IP Address</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+          data-aos-delay="600">
+          <div class="  pt-5 pb-4 plan-post text-center" style="background: #F2F6FB ;">
+
+           <h6>pro</h6>
+
+              <div class="d-flex my-4 justify-content-center">
+                <p class="dollar">mmk</p>
+                <p class="plan-cost">700000&nbsp;</p>
+                <p class="month pt-3">/Year</p>
+              </div>
+
+            <div class="mb-5">
+              <button type="button" class="btn btn-outline-primary plan-btn-outline-primary ">Select</button>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Unlimited</p>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>250 GB storage</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free domain</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free SSL</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free email</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Daily Backup</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Unlimited bandwidth</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated resources</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated IP Address</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 pb-4" data-aos="fade-up" data-aos-easing="ease-in-sine"
+          data-aos-delay="900">
+          <div class="  pt-5 pb-4 plan-post text-center">
+
+            <h6>ultimate</h6>
+
+              <div class="d-flex my-4 justify-content-center">
+                <p class="dollar">mmk</p>
+                <p class="plan-cost">800000&nbsp;</p>
+                <p class="month pt-3">/month</p>
+              </div>
+
+            <div class="mb-5">
+              <button type="button" class="btn btn-outline-primary">Select</button>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Unlimited</p>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Unlimited storage</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free domain</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free SSL</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Free email</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Daily Backup</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Unlimited bandwidth</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated resources</p>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <p class="plan-right">✓&nbsp;</p>
+              <p>Dedicated IP Address</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
   
 
+ <!-- FAQ Section Starts -->
+  <section id="faq">
+
+    <div class="container my-5 ">
+      <h2 class="text-center  mb-5">Frequently asked questions</h2>
 
 
-    <!-- <footer class="d-flex flex-wrap justify-content-between align-items-center border-top"></footer>
+      <div class="accordion col-md-10 offset-md-1" id="accordionPanelsStayOpenExample">
+
+        <div class="accordion-item mt-3" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="0">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              What is web hosting and server exactly?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
+                nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies consectetu
+                at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-3" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="200">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              How to know which hosting service provider is best?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
+                nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies consectetu
+                at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-3" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="400">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              What are the special features of hosthub?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
+                nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies consectetu
+                at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-3" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="600">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour">
+              Is there any refund service for buyers?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+              <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
+                nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies consectetu
+                at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-3" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="800">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFive">
+              Basic tips or information to keep in mind?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFive">
+            <div class="accordion-body">
+              <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
+                nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies consectetu
+                at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item mt-3" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="900">
+          <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseSix">
+              Basic tips or information to keep in mind?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingSix">
+            <div class="accordion-body">
+              <p>Diam orci gravida convallis at enim risus viverra. Hac mi tristique in aliquet tincidunt nam lectus
+                nec. Placerat interdum auctor facilisi massa laoreet hendrerit posuere a. Tristique ultricies consectetu
+                at.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </section>
+  <!--  -->
+
+  <!--  -->
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center border-top"></footer>
 
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 pt-4">
@@ -297,7 +872,7 @@
 
         </div>
 
-      </footer> -->
+      </footer>
     </div>
   </section>
 
@@ -329,6 +904,7 @@
     })
   </script>
 
+<script>!function(){var e,t,n,a;window.MyAliceWebChat||((t=document.createElement("div")).id="myAliceWebChat",(n=document.createElement("script")).type="text/javascript",n.async=!0,n.src="https://widget.myalice.ai/index.js",(a=(e=document.body.getElementsByTagName("script"))[e.length-1]).parentNode.insertBefore(n,a),a.parentNode.insertBefore(t,a),n.addEventListener("load",(function(){MyAliceWebChat.init({selector:"myAliceWebChat",number:"viber://chat?number=09775204020",message:"",color:"#8f5db7",channel:"viber",boxShadow:"none",text:"",theme:"light",position:"right",mb:"20px",mx:"20px",radius:"20px"})})))}();</script>
 
 
 
