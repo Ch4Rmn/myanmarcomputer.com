@@ -61,6 +61,39 @@
             transform: translateX(-50%);
         }
     }
+    .image-wrapper {
+  height: 120px; /* Fixed height for consistency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px 8px 0 0;
+}
+
+.image-wrapper img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.client-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.client-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+
+.client-card img {
+  max-height: 100px;
+  object-fit: contain;
+}
+
 </style>
 </head>
 
@@ -159,6 +192,9 @@
               </li> -->
               <li class="nav-item">
                 <a class="nav-link text-uppercase px-4 text-light" href="price.html">Price </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase px-4 text-light" href="price.html">Services </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-uppercase px-4 text-light" href="aboutus.html">About </a>
@@ -282,14 +318,9 @@
 
   <!-- Hero Section Starts -->
   <section id="hero">
-    <div class="image-holder position-relative">
-      <!-- <img src="images/pattern.png" alt="banner" class="img-fluid"> -->
-    </div>
-    <!-- <div class="hero container position-absolute  top-50 start-50 translate-middle pb-5 " data-aos="fade-up"
-      data-aos-easing="ease-in-sine"> -->
-      <div class="hero container position-absolute  top-50 start-50 translate-middle pb-5 " >
-      <div class="row align-items-center g-5 py-5">
-          <h6>Hosthub Hosting</h6>
+      <div class="hero container position-absolute top-50 start-50 translate-middle" style="padding-top: 2rem; padding-bottom: 2rem;">
+  <div class="row align-items-center g-5">
+          <h6 class=>Hosthub Hosting</h6>
           <h1 class=" text-capitalize text-light my-3">Fast & Secure Websites for Your Business.</h1>
           <p class="text-light mb-4">DPS has been providing a wide
  range of website-related services
@@ -306,14 +337,11 @@
                 <iconify-icon icon="prime:arrow-right" class="btn-arrow"></iconify-icon>
               </span>
             </button>
-
             <button type="button" class="btn btn-outline-primary hero-btn-outline-primary mb-2" onclick="window.location.href='/aboutus.html'"> Learn more </button>
           </div>
         </div>
-     
-
       </div>
-    </div>
+    
   </section>
 <!-- 21.8.2025 -->
  <div class="container-fluid my-5">
@@ -421,27 +449,80 @@
   
   <!--  -->
   <section id="action">
-    <div class="container my-5 py-5">
-      <div class="text-center py-5 " data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="600">
-        <h6>Free Advice Now</h6>
-        <h1 class=" text-capitalize mb-3">Get a Free Website Consultation Today</h1>
-        <p class="">It is very easy to integrate in your site or apps. </p>
-        <div class="">
+  <div class="container my-5 py-5">
+    <div class="text-center" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-delay="600">
+      <h6>Our Trusted Clients</h6>
 
-
-          <button type="button" class="btn btn-primary">
-            <span class="btnText"><a href="viber://chat?number=09775204020" style="color:white">Get started now</a>
-</span>
-            <span class="btnTwo">
-              <iconify-icon icon="prime:arrow-right" class="btn-arrow"></iconify-icon>
-            </span>
-          </button>
-
-
-        </div>
+      <!-- Button -->
+      <div class="mb-4">
+        <button type="button" class="btn btn-primary">
+          <span class="btnText">
+            <a href="viber://chat?number=09775204020" style="color:white; text-decoration: none;">Get started now</a>
+          </span>
+          <span class="btnTwo">
+            <iconify-icon icon="prime:arrow-right" class="btn-arrow"></iconify-icon>
+          </span>
+        </button>
       </div>
     </div>
-  </section>
+
+    <!-- Cards Row -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-3">
+
+  <!-- Card 1 -->
+  <div class="col">
+    <div class="card client-card h-100 text-center border-0 shadow-sm">
+      <div class="image-wrapper">
+        <img src="images/sawbwarlay.JPG" alt="Client 1 Logo">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">စော်ဘွားလေးဗိုလ်ဗိုလ်မောင်</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="col">
+    <div class="card client-card h-100 text-center border-0 shadow-sm">
+      <div class="image-wrapper">
+        <img src="images/excellenthotel.JPG" alt="Client 2 Logo">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Excel Hotel Group</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="col">
+    <div class="card client-card h-100 text-center border-0 shadow-sm">
+      <div class="image-wrapper">
+        <img src="images/greatwall.JPG" alt="Client 3 Logo">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">ဂရိတ်ဝေါတိုင်းရင်းဆေးဝါးထုတ်လုပ်ရေး</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="col">
+    <div class="card client-card h-100 text-center border-0 shadow-sm">
+      <div class="image-wrapper">
+        <img src="images/mawriya.JPG" alt="Client 4 Logo">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">မောရိယမန်းဆေး</h5>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+</section>
+
+
   <!--  -->
    <!-- Blog Section Starts -->
   <section id="blog" style="background-color: white !important;">
@@ -725,10 +806,7 @@
           </div>
         </div>
       </div>
-
     </div>
-
-
   </section>
   
 
